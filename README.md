@@ -1,1 +1,8 @@
-Andrej Taskovski, 211210
+##Андреј Тасковски, 211210
+
+Control Flow Graph
+![](control_flow_graph_image.png)
+
+Цикломатска комплексност
+Цикломатската комплексност ја пресметав преку формулата C = E - N + 2, каде Е=30, N=22, па се добива 8+2=10. Истото се добива и ако ги изброиме регионите од CFG.
+![](ciklomatska_kompleksnost_regioni.png)
