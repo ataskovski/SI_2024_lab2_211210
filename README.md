@@ -1,4 +1,4 @@
-##Андреј Тасковски, 211210
+Андреј Тасковски, 211210
 
 Control Flow Graph
 ![](control_flow_graph_image.png)
