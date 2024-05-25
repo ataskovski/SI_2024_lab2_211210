@@ -1,11 +1,11 @@
 Андреј Тасковски, 211210
 
 Control Flow Graph
-![](control_flow_graph_image.png)
+![](sliki_od_resenija/control_flow_graph_image.png)
 
 Цикломатска комплексност
 Цикломатската комплексност ја пресметав преку формулата C = E - N + 2, каде Е=31, N=23, па се добива 8+2=10. Истото се добива и ако ги изброиме регионите од CFG.
-![](ciklomatska_kompleksnost_regioni.png)
+![](sliki_od_resenija/ciklomatska_kompleksnost_regioni.png)
 
 Тестови според Every Branch критериумот
 
@@ -25,8 +25,8 @@ Control Flow Graph
 
 - тест 6: List<Item> list = {new Item("item", "!1234", 400, -10)}, payment = 5000, за исклучокот кога имаме недозволен карактер во баркодот.
 
-слика од решение:
-![](resenie_every_branch.png)
+слика:
+![](sliki_od_resenija/resenie_every_branch.png)
 
 
 Тестови според Multiple-Condition критериумот
@@ -38,4 +38,4 @@ if (item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(
 - FXX : првиот услов е неточен, останатите се скокаат(lazy evaluation), за пример може да се земе 300,0,"21232"
 
 слика:
-![](resenie_multiple_condition.png)
+![](sliki_od_resenija/resenie_multiple_condition.png)
